@@ -1,6 +1,13 @@
 package implementations;
 import java.util.LinkedHashMap;
 
+/**
+ * Class to implement LRU cache
+ * Uses LinkedHashMap construct in Java collections
+ * 
+ * @author gaurav kabra
+ * @since Sept 2023
+ */
 public class LRUWithBuiltInConstruct {
 
     private LinkedHashMap<Integer, Integer> cache;

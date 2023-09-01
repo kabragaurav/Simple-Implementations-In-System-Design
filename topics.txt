@@ -1,7 +1,7 @@
-Map reduce
-Kafka
-Redis
-Elastic Search
+Data processing job - Map reduce
+Message broker - Kafka
+Cache - Redis
+Index and search - Elastic Search
 Transactions - Producer-consumer problem
 
 ...more to be added

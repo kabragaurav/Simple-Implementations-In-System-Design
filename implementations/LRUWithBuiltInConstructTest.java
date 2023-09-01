@@ -2,6 +2,12 @@ package implementations;
 
 import implementations.LRUWithBuiltInConstruct;
 
+/**
+ * Simple test for LRUWithBuiltInConstruct.java class
+ * 
+ * @author gaurav kabra
+ * @since Sept 2023
+ */
 public class LRUWithBuiltInConstructTest {
     public static void main(String[] args) {
         LRUWithBuiltInConstruct lru = new LRUWithBuiltInConstruct(2);
