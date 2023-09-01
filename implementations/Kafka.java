@@ -62,10 +62,10 @@ public class Kafka {
                 }
                 Message message = queue.poll();
                 Optional.ofNullable(message)
-                    .ifPresentOrElse(msg -> {
-                        System.out.println("Read message: " + msg);
-                    },
-                    () -> System.out.println("Queue is empty..."));
+                    .ifPresentOrElse(
+                        msg -> System.out.println("Read message: " + msg),
+                        () -> System.out.println("Queue is empty...")
+                    );
             }
         }
         
@@ -98,7 +98,7 @@ public class Kafka {
 
         @Override
         public String toString() {
-            return Optional.ofNullable(seperator).isPresent() ? key + seperator + val 
+            return Optional.ofNullable(key).isPresent() ? key + seperator + val 
                     : val;
         }
     }
