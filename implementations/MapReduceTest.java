@@ -1,4 +1,4 @@
-package tests;
+package implementations;
 
 import java.util.List;
 import java.util.Map;
@@ -15,7 +15,7 @@ public class MapReduceTest {
     public static void main(String[] args) {
         String document = """
                 This is a Map-Reduce program test.
-                I am main method. 
+                I am main method.
                 Although I am just a method, I am special.
             """;
         
